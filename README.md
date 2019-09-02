@@ -4,7 +4,7 @@
 remember to push before commit
 if you directly commit, all changes would be staged and automatically commit, so if you want to make another change, you have to go over again to make a comment before commit.
 
-##update 9/2/2019
+## update 9/2/2019
 
  nothing new except i have done some testing on the last version so the pycache might be different, that is.
 
