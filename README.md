@@ -6,6 +6,8 @@ if you directly commit, all changes would be staged and automatically commit, so
 
 ## update 9/2/2019
 
+md is strange
+
  nothing new except i have done some testing on the last version so the pycache might be different, that is.
 
 one important discovery is that you can not import a function that is included in a class, the functions that can be imported are those outside of the class.
