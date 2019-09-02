@@ -1,10 +1,12 @@
 # mytools
  a tools just for me
 
+remember to push before commit
+if you directly commit, all changes would be staged and automatically commit, so if you want to make another change, you have to go over again to make a comment before commit.
 
-update 9/2/2019
+##update 9/2/2019
 
-## nothing new except i have done some testing on the last version so the pycache might be different, that is.
+ nothing new except i have done some testing on the last version so the pycache might be different, that is.
 
 one important discovery is that you can not import a function that is included in a class, the functions that can be imported are those outside of the class.
 
