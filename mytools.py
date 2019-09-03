@@ -1,5 +1,7 @@
 
 class string:
+    tpis = 'if you need hints, please call the attribute tips()'
+    
     def __init__(self):
         print("tools: path_conver")
 

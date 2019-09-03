@@ -54,3 +54,16 @@ in our cases, path_convert() is located inside the class "string", so it cannot 
     from package1.module2 import function1
     from package2 import class1
     from package2.subpackage1.module5 import function2
+
+
+## update 9/3/2019
+
+This update is to add new import information for python:
+
+1.a workspace is dedicated for a concealed working space, the import function might search for package just in that workspace
+
+2.if you create a script outside the workspace, there is no problem importing the package. But if you import it in a workspace, there might be problems, i am not sure.
+
+a typical erro be like this:
+ImportError: cannot import name 'string' from 'mytools' (c:\Users\psxuw\Desktop\category\vscode\py\testing\mytools.py)
+the path is a local workspace,  not a python package
