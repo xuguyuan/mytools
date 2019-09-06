@@ -18,11 +18,15 @@ class string:
         if call==False:           #this branch for cases that you forget to include the path to the function ()
             print("ERRO WITH VSCODE! pls directly input the path in the function")
         else:
-            original_path = call
-            path_output=original_path.replace("\\","\\\\")
-            print("\n\nreal ouput list down below\n\n"+path_output+"\n")
+            try:
+                original_path = call
+                path_output=original_path.replace("\\","\\\\")
+                print("\n\nreal ouput list down below\n\n"+path_output+"\n")
+            except:
+                print('pls prefix r to the pth you input to avoid unicode error')
 
-        #123 testing for git
+
+
 
 
 
